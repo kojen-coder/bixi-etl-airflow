@@ -1,0 +1,342 @@
+[2024-10-13T20:01:48.946-0400] {processor.py:186} INFO - Started process (PID=25666) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:01:48.947-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:01:48.948-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:01:48.948-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:01:48.967-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:01:52.905-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:01:52.905-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:01:52.906-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:01:52.905-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:01:53.339-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:01:53.338-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:01:53.357-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:01:53.356-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:01:53.381-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.441 seconds
+[2024-10-13T20:05:59.537-0400] {processor.py:186} INFO - Started process (PID=26965) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:05:59.539-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:05:59.541-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:05:59.541-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:05:59.568-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:06:03.875-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:06:03.875-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:06:03.876-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:06:03.876-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:06:04.365-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:06:04.365-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:06:04.388-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:06:04.388-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:06:04.414-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.884 seconds
+[2024-10-13T20:10:00.777-0400] {processor.py:186} INFO - Started process (PID=28205) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:10:00.778-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:10:00.779-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:10:00.779-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:10:00.803-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:10:04.862-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:10:04.862-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:10:04.862-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:10:04.862-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:10:05.273-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:10:05.272-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:10:05.289-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:10:05.289-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:10:05.313-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.543 seconds
+[2024-10-13T20:13:59.307-0400] {processor.py:186} INFO - Started process (PID=29422) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:13:59.308-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:13:59.310-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:13:59.310-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:13:59.337-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:14:03.273-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:14:03.273-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:14:03.274-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:14:03.273-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:14:03.674-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:14:03.673-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:14:03.693-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:14:03.692-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:14:03.721-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.421 seconds
+[2024-10-13T20:18:07.814-0400] {processor.py:186} INFO - Started process (PID=30686) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:18:07.816-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:18:07.818-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:18:07.817-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:18:07.840-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:18:12.001-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:18:12.001-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:18:12.002-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:18:12.002-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:18:12.379-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:18:12.379-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:18:12.396-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:18:12.396-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:18:12.415-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.607 seconds
+[2024-10-13T20:22:32.543-0400] {processor.py:186} INFO - Started process (PID=32163) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:22:32.544-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:22:32.546-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:22:32.545-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:22:32.572-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:22:36.759-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:22:36.759-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:22:36.759-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:22:36.759-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:22:37.183-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:22:37.182-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:22:37.203-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:22:37.203-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:22:37.231-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.693 seconds
+[2024-10-13T20:28:11.239-0400] {processor.py:186} INFO - Started process (PID=34006) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:28:11.240-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:28:11.242-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:28:11.241-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:28:11.265-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:28:15.785-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:28:15.785-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:28:15.785-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:28:15.785-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:28:16.265-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:28:16.264-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:28:16.287-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:28:16.286-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:28:16.314-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 5.081 seconds
+[2024-10-13T20:32:40.964-0400] {processor.py:186} INFO - Started process (PID=35523) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:32:40.965-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:32:40.967-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:32:40.967-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:32:40.986-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:32:44.625-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:32:44.625-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:32:44.625-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:32:44.625-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:32:45.006-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:32:45.005-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:32:45.025-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:32:45.025-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:32:45.047-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.089 seconds
+[2024-10-13T20:36:21.737-0400] {processor.py:186} INFO - Started process (PID=36691) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:36:21.739-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:36:21.740-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:36:21.740-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:36:21.760-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:36:25.473-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:36:25.472-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:36:25.473-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:36:25.473-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:36:25.829-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:36:25.828-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:36:25.842-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:36:25.842-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:36:25.866-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.135 seconds
+[2024-10-13T20:40:01.091-0400] {processor.py:186} INFO - Started process (PID=37822) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:40:01.092-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:40:01.094-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:40:01.093-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:40:01.114-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:40:04.681-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:40:04.681-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:40:04.681-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:40:04.681-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:40:05.061-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:40:05.060-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:40:05.081-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:40:05.080-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:40:05.105-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.019 seconds
+[2024-10-13T20:43:41.611-0400] {processor.py:186} INFO - Started process (PID=38961) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:43:41.613-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:43:41.615-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:43:41.614-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:43:41.639-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:43:45.312-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:43:45.312-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:43:45.313-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:43:45.313-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:43:45.684-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:43:45.684-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:43:45.703-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:43:45.702-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:43:45.724-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.119 seconds
+[2024-10-13T20:47:20.681-0400] {processor.py:186} INFO - Started process (PID=40111) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:47:20.682-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:47:20.683-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:47:20.683-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:47:20.704-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:47:24.395-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:47:24.395-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:47:24.396-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:47:24.395-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:47:24.767-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:47:24.766-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:47:24.780-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:47:24.780-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:47:24.802-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.127 seconds
+[2024-10-13T20:50:59.387-0400] {processor.py:186} INFO - Started process (PID=41233) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:50:59.388-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:50:59.390-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:50:59.390-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:50:59.408-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:51:03.096-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:51:03.095-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:51:03.096-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:51:03.096-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:51:03.471-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:51:03.471-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:51:03.485-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:51:03.484-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:51:03.506-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.125 seconds
+[2024-10-13T20:54:38.358-0400] {processor.py:186} INFO - Started process (PID=42370) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:54:38.360-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:54:38.361-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:54:38.361-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:54:38.384-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:54:42.092-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:54:42.092-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:54:42.093-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:54:42.092-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:54:42.478-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:54:42.478-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:54:42.492-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:54:42.491-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:54:42.513-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.161 seconds
+[2024-10-13T20:58:20.244-0400] {processor.py:186} INFO - Started process (PID=43529) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:58:20.245-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T20:58:20.246-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:58:20.246-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:58:20.266-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T20:58:23.950-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:58:23.949-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:58:23.950-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:58:23.950-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:58:24.323-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:58:24.323-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:58:24.337-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:58:24.336-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T20:58:24.357-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.119 seconds
+[2024-10-13T21:02:00.047-0400] {processor.py:186} INFO - Started process (PID=44656) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:02:00.049-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:02:00.050-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:02:00.050-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:02:00.067-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:02:03.664-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:02:03.663-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:02:03.664-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:02:03.664-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:02:04.055-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:02:04.055-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:02:04.070-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:02:04.070-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:02:04.093-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.052 seconds
+[2024-10-13T21:05:39.653-0400] {processor.py:186} INFO - Started process (PID=45788) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:05:39.654-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:05:39.655-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:05:39.654-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:05:39.671-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:05:43.306-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:05:43.306-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:05:43.307-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:05:43.307-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:05:43.670-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:05:43.669-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:05:43.683-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:05:43.683-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:05:43.706-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.058 seconds
+[2024-10-13T21:11:06.528-0400] {processor.py:186} INFO - Started process (PID=47561) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:11:06.529-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:11:06.530-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:11:06.530-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:11:06.550-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:11:10.301-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:11:10.301-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:11:10.301-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:11:10.301-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:11:10.685-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:11:10.685-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:11:10.704-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:11:10.704-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:11:10.725-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.204 seconds
+[2024-10-13T21:15:40.884-0400] {processor.py:186} INFO - Started process (PID=49067) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:15:40.886-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:15:40.887-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:15:40.887-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:15:40.909-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:15:45.405-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:15:45.404-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:15:45.405-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:15:45.405-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:15:45.955-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:15:45.954-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:15:45.975-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:15:45.975-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:15:46.006-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 5.127 seconds
+[2024-10-13T21:19:30.428-0400] {processor.py:186} INFO - Started process (PID=50414) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:19:30.430-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:19:30.431-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:19:30.431-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:19:30.449-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:19:34.140-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:19:34.140-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:19:34.141-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:19:34.141-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:19:34.510-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:19:34.509-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:19:34.525-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:19:34.525-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:19:34.546-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.123 seconds
+[2024-10-13T21:23:11.542-0400] {processor.py:186} INFO - Started process (PID=51541) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:23:11.543-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:23:11.545-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:23:11.544-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:23:11.563-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:23:15.362-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:23:15.361-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:23:15.362-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:23:15.362-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:23:15.738-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:23:15.737-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:23:15.755-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:23:15.755-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:23:15.778-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.242 seconds
+[2024-10-13T21:26:50.881-0400] {processor.py:186} INFO - Started process (PID=52683) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:26:50.883-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:26:50.884-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:26:50.884-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:26:50.906-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:26:54.536-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:26:54.535-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:26:54.536-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:26:54.536-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:26:54.918-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:26:54.918-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:26:54.937-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:26:54.937-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:26:54.963-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.088 seconds
+[2024-10-13T21:30:46.152-0400] {processor.py:186} INFO - Started process (PID=53920) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:30:46.153-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:30:46.155-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:30:46.154-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:30:46.177-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:30:50.070-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:30:50.070-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:30:50.071-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:30:50.071-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:30:50.474-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:30:50.474-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:30:50.489-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:30:50.488-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:30:50.511-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.366 seconds
+[2024-10-13T21:34:43.418-0400] {processor.py:186} INFO - Started process (PID=55155) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:34:43.420-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:34:43.421-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:34:43.421-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:34:43.441-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:34:47.250-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:34:47.250-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:34:47.251-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:34:47.251-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:34:47.652-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:34:47.651-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:34:47.669-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:34:47.669-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:34:47.690-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.278 seconds
+[2024-10-13T21:38:36.428-0400] {processor.py:186} INFO - Started process (PID=56383) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:38:36.430-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:38:36.431-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:38:36.431-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:38:36.453-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:38:40.260-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:38:40.259-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:38:40.260-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:38:40.260-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:38:40.661-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:38:40.661-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:38:40.680-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:38:40.680-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:38:40.703-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.280 seconds
+[2024-10-13T21:42:32.364-0400] {processor.py:186} INFO - Started process (PID=57594) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:42:32.365-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:42:32.367-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:42:32.366-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:42:32.385-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:42:36.306-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:42:36.305-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:42:36.306-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:42:36.306-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:42:36.719-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:42:36.718-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:42:36.734-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:42:36.733-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:42:36.759-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.401 seconds
+[2024-10-13T21:46:23.413-0400] {processor.py:186} INFO - Started process (PID=58766) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:46:23.414-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:46:23.415-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:46:23.415-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:46:23.437-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:46:27.376-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:46:27.375-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:46:27.376-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:46:27.376-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:46:27.797-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:46:27.796-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:46:27.815-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:46:27.815-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:46:27.838-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.432 seconds
+[2024-10-13T21:50:24.621-0400] {processor.py:186} INFO - Started process (PID=60043) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:50:24.623-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:50:24.624-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:50:24.624-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:50:24.645-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:50:28.580-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:50:28.580-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:50:28.581-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:50:28.581-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:50:28.992-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:50:28.992-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:50:29.011-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:50:29.010-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:50:29.033-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.418 seconds
+[2024-10-13T21:54:27.306-0400] {processor.py:186} INFO - Started process (PID=61277) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:54:27.308-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:54:27.309-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:54:27.309-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:54:27.331-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:54:31.306-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:54:31.306-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:54:31.306-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:54:31.306-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:54:31.743-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:54:31.743-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:54:31.760-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:54:31.760-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:54:31.782-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.482 seconds
+[2024-10-13T21:58:22.503-0400] {processor.py:186} INFO - Started process (PID=62504) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:58:22.505-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T21:58:22.506-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:58:22.506-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:58:22.528-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T21:58:26.190-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:58:26.190-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:58:26.190-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:58:26.190-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:58:26.558-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:58:26.558-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:58:26.572-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:58:26.572-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T21:58:26.592-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.095 seconds
+[2024-10-13T22:02:11.609-0400] {processor.py:186} INFO - Started process (PID=63687) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:02:11.611-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:02:11.612-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:02:11.612-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:02:11.636-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:02:15.584-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:02:15.584-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:02:15.585-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:02:15.584-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:02:15.993-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:02:15.993-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:02:16.008-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:02:16.008-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:02:16.031-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.427 seconds
+[2024-10-13T22:06:06.295-0400] {processor.py:186} INFO - Started process (PID=64886) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:06:06.296-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:06:06.297-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:06:06.297-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:06:06.316-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:06:10.201-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:06:10.201-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:06:10.202-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:06:10.202-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:06:10.604-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:06:10.604-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:06:10.620-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:06:10.619-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:06:10.643-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.354 seconds
+[2024-10-13T22:10:03.566-0400] {processor.py:186} INFO - Started process (PID=66115) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:10:03.568-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:10:03.569-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:10:03.569-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:10:03.600-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:10:08.429-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:10:08.429-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:10:08.430-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:10:08.429-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:10:08.873-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:10:08.873-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:10:08.893-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:10:08.893-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:10:08.916-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 5.357 seconds
+[2024-10-13T22:13:55.422-0400] {processor.py:186} INFO - Started process (PID=67304) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:13:55.423-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:13:55.425-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:13:55.424-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:13:55.447-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:13:59.764-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:13:59.764-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:13:59.765-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:13:59.765-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:14:00.236-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:14:00.236-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:14:00.253-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:14:00.252-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:14:00.280-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.864 seconds
+[2024-10-13T22:17:58.649-0400] {processor.py:186} INFO - Started process (PID=68537) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:17:58.651-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:17:58.652-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:17:58.652-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:17:58.676-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:18:02.628-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:18:02.628-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:18:02.629-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:18:02.628-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:18:03.017-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:18:03.017-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:18:03.031-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:18:03.031-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:18:03.058-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.413 seconds
+[2024-10-13T22:21:59.150-0400] {processor.py:186} INFO - Started process (PID=69775) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:21:59.151-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:21:59.153-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:21:59.153-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:21:59.179-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:22:03.348-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:22:03.348-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:22:03.349-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:22:03.348-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:22:03.784-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:22:03.783-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:22:03.806-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:22:03.806-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:22:03.835-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.690 seconds
+[2024-10-13T22:26:08.139-0400] {processor.py:186} INFO - Started process (PID=71126) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:26:08.141-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:26:08.142-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:26:08.142-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:26:08.165-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:26:12.257-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:26:12.256-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:26:12.257-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:26:12.257-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:26:12.698-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:26:12.698-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:26:12.719-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:26:12.719-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:26:12.747-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.614 seconds
+[2024-10-13T22:34:43.376-0400] {processor.py:186} INFO - Started process (PID=74009) to work on /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:34:43.378-0400] {processor.py:914} INFO - Processing file /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-10-13T22:34:43.379-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:34:43.379-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:34:43.403-0400] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-10-13T22:34:47.147-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:34:47.146-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:34:47.147-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:34:47.147-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:34:47.521-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:34:47.521-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:34:47.537-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:34:47.536-0400] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-10-13T22:34:47.557-0400] {processor.py:208} INFO - Processing /Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 4.185 seconds

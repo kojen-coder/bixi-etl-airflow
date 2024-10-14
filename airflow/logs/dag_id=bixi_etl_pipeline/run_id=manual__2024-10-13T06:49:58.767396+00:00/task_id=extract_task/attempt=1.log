@@ -1,0 +1,26 @@
+[2024-10-13T02:50:21.590-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-13T02:50:21.627-0400] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bixi_etl_pipeline.extract_task manual__2024-10-13T06:49:58.767396+00:00 [queued]>
+[2024-10-13T02:50:21.648-0400] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bixi_etl_pipeline.extract_task manual__2024-10-13T06:49:58.767396+00:00 [queued]>
+[2024-10-13T02:50:21.650-0400] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-13T02:50:21.680-0400] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): extract_task> on 2024-10-13 06:49:58.767396+00:00
+[2024-10-13T02:50:21.694-0400] {standard_task_runner.py:72} INFO - Started process 16390 to run task
+[2024-10-13T02:50:21.702-0400] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-10-13T02:50:21.732-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'bixi_etl_pipeline', 'extract_task', 'manual__2024-10-13T06:49:58.767396+00:00', '--job-id', '162', '--raw', '--subdir', 'DAGS_FOLDER/bixi_etl_pipeline.py', '--cfg-path', '/var/folders/bj/4z3t139j7xj2qng4wk4y16ym0000gn/T/tmpbzutp6bt']
+[2024-10-13T02:50:21.753-0400] {standard_task_runner.py:105} INFO - Job 162: Subtask extract_task
+[2024-10-13T02:50:21.931-0400] {task_command.py:467} INFO - Running <TaskInstance: bixi_etl_pipeline.extract_task manual__2024-10-13T06:49:58.767396+00:00 [running]> on host karendembp.home
+[2024-10-13T02:50:22.527-0400] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bixi_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-13T06:49:58.767396+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-13T06:49:58.767396+00:00'
+[2024-10-13T02:50:22.529-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-13T02:50:22.530-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-13T02:50:22.531-0400] {logging_mixin.py:190} INFO - Current task name:extract_task state:running start_date:2024-10-13 06:50:21.628575+00:00
+[2024-10-13T02:50:22.532-0400] {logging_mixin.py:190} INFO - Dag name:bixi_etl_pipeline and current dag run status:running
+[2024-10-13T02:50:22.535-0400] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-13T02:50:23.039-0400] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-13T02:50:23.051-0400] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-13T02:50:23.057-0400] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=bixi_etl_pipeline, task_id=extract_task, run_id=manual__2024-10-13T06:49:58.767396+00:00, execution_date=20241013T064958, start_date=20241013T065021, end_date=20241013T065023
+[2024-10-13T02:50:23.083-0400] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-10-13T02:50:23.084-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-10-13T02:50:23.086-0400] {logging_mixin.py:190} INFO - Dag name:bixi_etl_pipeline queued_at:2024-10-13 06:49:58.800096+00:00
+[2024-10-13T02:50:23.087-0400] {logging_mixin.py:190} INFO - Task hostname:karendembp.home operator:PythonOperator
+[2024-10-13T02:50:23.133-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-13T02:50:23.202-0400] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-13T02:50:23.205-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

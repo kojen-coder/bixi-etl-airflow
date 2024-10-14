@@ -1,0 +1,143 @@
+[2024-10-13T02:38:19.260-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-13T02:38:19.279-0400] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bixi_etl_pipeline.load_task manual__2024-10-13T06:37:21.688193+00:00 [queued]>
+[2024-10-13T02:38:19.287-0400] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bixi_etl_pipeline.load_task manual__2024-10-13T06:37:21.688193+00:00 [queued]>
+[2024-10-13T02:38:19.288-0400] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-13T02:38:19.304-0400] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): load_task> on 2024-10-13 06:37:21.688193+00:00
+[2024-10-13T02:38:19.313-0400] {standard_task_runner.py:72} INFO - Started process 12535 to run task
+[2024-10-13T02:38:19.318-0400] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-10-13T02:38:19.329-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'bixi_etl_pipeline', 'load_task', 'manual__2024-10-13T06:37:21.688193+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/bixi_etl_pipeline.py', '--cfg-path', '/var/folders/bj/4z3t139j7xj2qng4wk4y16ym0000gn/T/tmp1xif5j62']
+[2024-10-13T02:38:19.330-0400] {standard_task_runner.py:105} INFO - Job 156: Subtask load_task
+[2024-10-13T02:38:19.393-0400] {task_command.py:467} INFO - Running <TaskInstance: bixi_etl_pipeline.load_task manual__2024-10-13T06:37:21.688193+00:00 [running]> on host karendembp.home
+[2024-10-13T02:38:19.658-0400] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bixi_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-13T06:37:21.688193+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-13T06:37:21.688193+00:00'
+[2024-10-13T02:38:19.660-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-13T02:38:19.660-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-13T02:38:19.661-0400] {logging_mixin.py:190} INFO - Current task name:load_task state:running start_date:2024-10-13 06:38:19.280240+00:00
+[2024-10-13T02:38:19.662-0400] {logging_mixin.py:190} INFO - Dag name:bixi_etl_pipeline and current dag run status:running
+[2024-10-13T02:38:19.662-0400] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-13T02:38:19.675-0400] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/airflow/dags/bixi_etl_pipeline.py", line 80, in load_data_to_delta
+    df_combined = spark.sql(f"SELECT * FROM {combined_data_view}")
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/sql/session.py", line 1631, in sql
+    return DataFrame(self._jsparkSession.sql(sqlQuery, litArgs), self)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/py4j/protocol.py", line 330, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o33.sql. Trace:
+py4j.Py4JException: Method sql([class java.lang.String, class [Ljava.lang.Object;]) does not exist
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:321)
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:329)
+	at py4j.Gateway.invoke(Gateway.java:274)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+[2024-10-13T02:38:19.683-0400] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-10-13T02:38:19.684-0400] {logging_mixin.py:190} INFO - Task start:2024-10-13 06:38:19.280240+00:00 end:2024-10-13 06:38:19.683048+00:00 duration:0.402808
+[2024-10-13T02:38:19.684-0400] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): load_task> dag:<DAG: bixi_etl_pipeline> dagrun:<DagRun bixi_etl_pipeline @ 2024-10-13 06:37:21.688193+00:00: manual__2024-10-13T06:37:21.688193+00:00, state:running, queued_at: 2024-10-13 06:37:21.729104+00:00. externally triggered: True>
+[2024-10-13T02:38:19.685-0400] {logging_mixin.py:190} INFO - Failure caused by An error occurred while calling o33.sql. Trace:
+py4j.Py4JException: Method sql([class java.lang.String, class [Ljava.lang.Object;]) does not exist
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:321)
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:329)
+	at py4j.Gateway.invoke(Gateway.java:274)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.lang.Thread.run(Thread.java:750)
+[2024-10-13T02:38:19.687-0400] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=bixi_etl_pipeline, task_id=load_task, run_id=manual__2024-10-13T06:37:21.688193+00:00, execution_date=20241013T063721, start_date=20241013T063819, end_date=20241013T063819
+[2024-10-13T02:38:19.699-0400] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-13T02:38:19.700-0400] {standard_task_runner.py:124} ERROR - Failed to execute job 156 for task load_task (An error occurred while calling o33.sql. Trace:
+py4j.Py4JException: Method sql([class java.lang.String, class [Ljava.lang.Object;]) does not exist
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:321)
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:329)
+	at py4j.Gateway.invoke(Gateway.java:274)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.lang.Thread.run(Thread.java:750)
+
+; 12535)
+Traceback (most recent call last):
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/airflow/dags/bixi_etl_pipeline.py", line 80, in load_data_to_delta
+    df_combined = spark.sql(f"SELECT * FROM {combined_data_view}")
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/sql/session.py", line 1631, in sql
+    return DataFrame(self._jsparkSession.sql(sqlQuery, litArgs), self)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/errors/exceptions/captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/py4j/protocol.py", line 330, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o33.sql. Trace:
+py4j.Py4JException: Method sql([class java.lang.String, class [Ljava.lang.Object;]) does not exist
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:321)
+	at py4j.reflection.ReflectionEngine.getMethod(ReflectionEngine.java:329)
+	at py4j.Gateway.invoke(Gateway.java:274)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+[2024-10-13T02:38:19.750-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-13T02:38:19.767-0400] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-13T02:38:19.768-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

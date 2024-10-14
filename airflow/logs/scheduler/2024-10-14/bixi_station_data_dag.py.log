@@ -1,0 +1,360 @@
+[2024-10-13T20:03:44.468-0400] {processor.py:186} INFO - Started process (PID=26290) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:03:44.469-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:03:44.471-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:44.471-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:03:48.589-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:48.589-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:03:48.590-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:48.589-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:03:48.916-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:03:49.163-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:49.163-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:03:49.184-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:49.184-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:03:49.212-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.753 seconds
+[2024-10-13T20:07:50.047-0400] {processor.py:186} INFO - Started process (PID=27553) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:07:50.048-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:07:50.050-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:50.050-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:07:54.094-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:54.093-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:07:54.094-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:54.094-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:07:54.434-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:07:54.667-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:54.666-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:07:54.688-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:54.687-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:07:54.714-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.674 seconds
+[2024-10-13T20:11:42.215-0400] {processor.py:186} INFO - Started process (PID=28728) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:11:42.216-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:11:42.217-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:42.217-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:11:45.928-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:45.928-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:11:45.929-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:45.928-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:11:46.224-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:11:46.415-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:46.414-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:11:46.428-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:46.428-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:11:46.453-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.245 seconds
+[2024-10-13T20:15:53.578-0400] {processor.py:186} INFO - Started process (PID=30006) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:15:53.580-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:15:53.581-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:53.581-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:15:57.483-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:57.483-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:15:57.484-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:57.484-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:15:57.772-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:15:57.967-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:57.966-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:15:57.981-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:57.981-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:15:58.000-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.428 seconds
+[2024-10-13T20:20:05.271-0400] {processor.py:186} INFO - Started process (PID=31295) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:20:05.273-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:20:05.275-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:05.275-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:20:09.877-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:09.876-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:20:09.877-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:09.877-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:20:10.214-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:20:10.427-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:10.426-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:20:10.448-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:10.447-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:20:10.473-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 5.208 seconds
+[2024-10-13T20:24:28.112-0400] {processor.py:186} INFO - Started process (PID=32792) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:24:28.113-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:24:28.114-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:28.114-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:24:32.037-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:32.037-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:24:32.051-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:32.051-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:24:32.358-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:24:32.612-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:32.611-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:24:32.633-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:32.632-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:24:32.657-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.553 seconds
+[2024-10-13T20:25:46.107-0400] {processor.py:186} INFO - Started process (PID=33211) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:25:46.108-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:25:46.110-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:46.109-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:25:49.972-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:49.972-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:25:49.972-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:49.972-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:25:50.273-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:25:50.489-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:50.488-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:25:50.509-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:50.508-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:25:50.530-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.429 seconds
+[2024-10-13T20:30:41.609-0400] {processor.py:186} INFO - Started process (PID=34929) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:30:41.615-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:30:41.617-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:41.617-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:30:45.356-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:45.355-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:30:45.356-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:45.356-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:30:45.638-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:30:45.870-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:45.869-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:30:45.887-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:45.887-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:30:45.910-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.307 seconds
+[2024-10-13T20:34:20.464-0400] {processor.py:186} INFO - Started process (PID=36050) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:34:20.465-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:34:20.468-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:20.467-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:34:24.055-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:24.055-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:34:24.056-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:24.056-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:34:24.342-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:34:24.535-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:24.535-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:34:24.548-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:24.548-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:34:24.570-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.111 seconds
+[2024-10-13T20:38:01.437-0400] {processor.py:186} INFO - Started process (PID=37221) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:38:01.439-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:38:01.440-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:01.440-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:38:05.083-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:05.083-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:38:05.084-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:05.084-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:38:05.392-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:38:05.600-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:05.600-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:38:05.616-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:05.616-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:38:05.638-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.206 seconds
+[2024-10-13T20:41:41.233-0400] {processor.py:186} INFO - Started process (PID=38346) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:41:41.235-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:41:41.236-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:41.236-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:41:44.752-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:44.752-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:41:44.753-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:44.752-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:41:45.029-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:41:45.252-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:45.252-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:41:45.265-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:45.265-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:41:45.285-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.058 seconds
+[2024-10-13T20:45:20.087-0400] {processor.py:186} INFO - Started process (PID=39465) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:45:20.089-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:45:20.090-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:20.090-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:45:23.750-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:23.750-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:45:23.751-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:23.750-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:45:24.018-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:45:24.231-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:24.231-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:45:24.250-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:24.250-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:45:24.271-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.189 seconds
+[2024-10-13T20:49:00.969-0400] {processor.py:186} INFO - Started process (PID=40625) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:49:00.971-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:49:00.972-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:00.972-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:49:04.513-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:04.512-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:49:04.513-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:04.513-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:49:04.791-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:49:04.988-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:04.987-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:49:05.004-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:05.004-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:49:05.029-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.066 seconds
+[2024-10-13T20:52:38.943-0400] {processor.py:186} INFO - Started process (PID=41765) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:52:38.945-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:52:38.946-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:38.946-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:52:42.553-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:42.553-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:52:42.554-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:42.554-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:52:42.858-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:52:43.049-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:43.048-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:52:43.062-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:43.062-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:52:43.085-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.147 seconds
+[2024-10-13T20:56:18.666-0400] {processor.py:186} INFO - Started process (PID=42912) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:56:18.667-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:56:18.669-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:18.668-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:56:22.193-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:22.193-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:56:22.194-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:22.194-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:56:22.477-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:56:22.653-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:22.653-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:56:22.666-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:22.666-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T20:56:22.689-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.028 seconds
+[2024-10-13T20:59:59.390-0400] {processor.py:186} INFO - Started process (PID=44053) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T20:59:59.391-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T20:59:59.392-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:59:59.392-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:00:03.028-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:03.027-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:00:03.028-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:03.028-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:00:03.330-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:00:03.533-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:03.533-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:00:03.551-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:03.551-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:00:03.574-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.190 seconds
+[2024-10-13T21:03:39.522-0400] {processor.py:186} INFO - Started process (PID=45184) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:03:39.524-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:03:39.525-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:39.525-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:03:43.182-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:43.182-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:03:43.183-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:43.182-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:03:43.451-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:03:43.653-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:43.652-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:03:43.667-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:43.666-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:03:43.685-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.168 seconds
+[2024-10-13T21:07:39.746-0400] {processor.py:186} INFO - Started process (PID=46431) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:07:39.748-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:07:39.749-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:39.749-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:07:44.657-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:44.657-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:07:44.658-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:44.658-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:07:45.116-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:07:45.417-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:45.416-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:07:45.440-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:45.439-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:07:45.470-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 5.730 seconds
+[2024-10-13T21:13:27.428-0400] {processor.py:186} INFO - Started process (PID=48302) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:13:27.429-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:13:27.431-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:27.430-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:13:31.274-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:31.274-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:13:31.274-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:31.274-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:13:31.584-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:13:31.821-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:31.820-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:13:31.840-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:31.840-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:13:31.865-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.443 seconds
+[2024-10-13T21:17:28.519-0400] {processor.py:186} INFO - Started process (PID=49790) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:17:28.520-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:17:28.522-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:28.522-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:17:32.097-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:32.097-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:17:32.097-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:32.097-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:17:32.357-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:17:32.553-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:32.552-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:17:32.566-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:32.566-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:17:32.588-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.075 seconds
+[2024-10-13T21:21:09.880-0400] {processor.py:186} INFO - Started process (PID=50928) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:21:09.882-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:21:09.884-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:09.883-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:21:13.516-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:13.516-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:21:13.517-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:13.516-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:21:13.805-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:21:14.002-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:14.002-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:21:14.015-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:14.015-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:21:14.038-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.164 seconds
+[2024-10-13T21:24:51.569-0400] {processor.py:186} INFO - Started process (PID=52068) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:24:51.571-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:24:51.572-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:51.572-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:24:55.148-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:55.148-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:24:55.149-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:55.149-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:24:55.449-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:24:55.658-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:55.658-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:24:55.676-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:55.676-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:24:55.698-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.135 seconds
+[2024-10-13T21:28:30.967-0400] {processor.py:186} INFO - Started process (PID=53199) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:28:30.969-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:28:30.970-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:30.970-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:28:34.557-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:34.557-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:28:34.557-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:34.557-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:28:34.829-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:28:35.023-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:35.023-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:28:35.037-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:35.036-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:28:35.057-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.095 seconds
+[2024-10-13T21:32:34.136-0400] {processor.py:186} INFO - Started process (PID=54480) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:32:34.137-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:32:34.139-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:34.138-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:32:38.120-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:38.119-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:32:38.120-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:38.120-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:32:38.424-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:32:38.647-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:38.647-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:32:38.665-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:38.665-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:32:38.688-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.558 seconds
+[2024-10-13T21:36:27.974-0400] {processor.py:186} INFO - Started process (PID=55724) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:36:27.975-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:36:27.977-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:27.976-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:36:31.886-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:31.886-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:36:31.886-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:31.886-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:36:32.204-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:36:32.434-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:32.434-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:36:32.449-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:32.449-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:36:32.469-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.500 seconds
+[2024-10-13T21:40:21.185-0400] {processor.py:186} INFO - Started process (PID=56919) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:40:21.186-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:40:21.188-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:21.187-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:40:25.363-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:25.362-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:40:25.363-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:25.363-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:40:25.698-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:40:25.933-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:25.933-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:40:25.952-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:25.952-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:40:25.975-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.796 seconds
+[2024-10-13T21:44:12.601-0400] {processor.py:186} INFO - Started process (PID=58111) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:44:12.603-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:44:12.604-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:12.604-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:44:16.471-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:16.471-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:44:16.472-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:16.472-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:44:16.787-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:44:17.031-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:17.030-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:44:17.051-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:17.050-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:44:17.072-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.476 seconds
+[2024-10-13T21:48:13.936-0400] {processor.py:186} INFO - Started process (PID=59343) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:48:13.937-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:48:13.938-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:13.938-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:48:17.860-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:17.859-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:48:17.860-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:17.860-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:48:18.164-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:48:18.378-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:18.378-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:48:18.396-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:18.396-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:48:18.418-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.489 seconds
+[2024-10-13T21:52:15.664-0400] {processor.py:186} INFO - Started process (PID=60626) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:52:15.666-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:52:15.668-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:15.668-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:52:19.675-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:19.674-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:52:19.675-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:19.675-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:52:19.991-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:52:20.210-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:20.210-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:52:20.225-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:20.225-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:52:20.246-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.588 seconds
+[2024-10-13T21:56:16.101-0400] {processor.py:186} INFO - Started process (PID=61862) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:56:16.102-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T21:56:16.103-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:16.103-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:56:19.964-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:19.964-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:56:19.965-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:19.964-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:56:20.293-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T21:56:20.499-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:20.498-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:56:20.516-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:20.516-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T21:56:20.540-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.446 seconds
+[2024-10-13T22:00:01.346-0400] {processor.py:186} INFO - Started process (PID=63019) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:00:01.347-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:00:01.348-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:01.348-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:00:05.307-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:05.307-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:00:05.308-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:05.308-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:00:05.604-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:00:05.825-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:05.824-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:00:05.841-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:05.840-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:00:05.862-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.524 seconds
+[2024-10-13T22:04:02.200-0400] {processor.py:186} INFO - Started process (PID=64255) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:04:02.201-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:04:02.203-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:02.203-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:04:05.826-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:05.826-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:04:05.826-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:05.826-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:04:06.125-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:04:06.316-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:06.316-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:04:06.329-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:06.329-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:04:06.352-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.158 seconds
+[2024-10-13T22:07:52.828-0400] {processor.py:186} INFO - Started process (PID=65448) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:07:52.829-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:07:52.831-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:52.830-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:07:56.662-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:56.662-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:07:56.662-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:56.662-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:07:56.974-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:07:57.224-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:57.223-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:07:57.244-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:57.244-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:07:57.266-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.444 seconds
+[2024-10-13T22:11:46.677-0400] {processor.py:186} INFO - Started process (PID=66654) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:11:46.678-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:11:46.679-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:46.679-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:11:50.542-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:50.542-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:11:50.543-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:50.543-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:11:50.843-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:11:51.058-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:51.057-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:11:51.076-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:51.076-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:11:51.102-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.430 seconds
+[2024-10-13T22:15:44.855-0400] {processor.py:186} INFO - Started process (PID=67871) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:15:44.857-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:15:44.858-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:44.858-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:15:49.235-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:49.235-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:15:49.236-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:49.235-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:15:49.567-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:15:49.795-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:49.794-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:15:49.812-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:49.812-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:15:49.838-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.991 seconds
+[2024-10-13T22:19:43.207-0400] {processor.py:186} INFO - Started process (PID=69089) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:19:43.208-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:19:43.210-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:43.210-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:19:47.121-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:47.120-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:19:47.121-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:47.121-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:19:47.421-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:19:47.630-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:47.630-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:19:47.649-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:47.648-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:19:47.675-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.473 seconds
+[2024-10-13T22:23:52.413-0400] {processor.py:186} INFO - Started process (PID=70403) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:23:52.414-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:23:52.415-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:52.415-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:23:56.580-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:56.580-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:23:56.580-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:56.580-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:23:56.888-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:23:57.116-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:57.115-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:23:57.134-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:57.134-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:23:57.158-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.751 seconds
+[2024-10-13T22:28:59.295-0400] {processor.py:186} INFO - Started process (PID=72087) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:28:59.296-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:28:59.297-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:28:59.297-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:29:03.310-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:03.310-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:29:03.311-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:03.311-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:29:03.643-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:29:04.089-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:04.088-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:29:04.126-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:04.126-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to 2024-10-14 02:20:00+00:00, run_after=2024-10-14 02:25:00+00:00
+[2024-10-13T22:29:04.154-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.865 seconds
+[2024-10-13T22:31:09.079-0400] {processor.py:186} INFO - Started process (PID=72822) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:31:09.080-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:31:09.082-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:31:09.082-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:31:13.236-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:31:13.236-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:31:13.237-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:31:13.236-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:31:13.578-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:31:13.957-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:31:13.957-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:31:13.974-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:31:13.974-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:31:14.001-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 4.927 seconds
+[2024-10-13T22:38:24.273-0400] {processor.py:186} INFO - Started process (PID=75246) to work on /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:38:24.274-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_station_data_dag.py for tasks to queue
+[2024-10-13T22:38:24.276-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:24.276-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:38:28.948-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:28.947-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:38:28.948-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:28.948-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:38:29.407-0400] {processor.py:925} INFO - DAG(s) 'bixi_dag_combined' retrieved from /Users/karenwang/airflow/dags/bixi_station_data_dag.py
+[2024-10-13T22:38:29.723-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:29.722-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:38:29.743-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:29.742-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_dag_combined to None, run_after=None
+[2024-10-13T22:38:29.787-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_station_data_dag.py took 5.520 seconds

@@ -1,0 +1,73 @@
+[2024-10-12T00:45:42.839-0400] {processor.py:186} INFO - Started process (PID=14076) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:45:42.840-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T00:45:42.841-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:42.841-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:45:45.906-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:45.905-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T00:45:45.906-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:45.906-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T00:45:46.147-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:45:46.422-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.421-0400] {override.py:1900} INFO - Created Permission View: can edit on DAG:bixi_mvp_pipeline
+[2024-10-12T00:45:46.432-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.431-0400] {override.py:1900} INFO - Created Permission View: can read on DAG:bixi_mvp_pipeline
+[2024-10-12T00:45:46.438-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.438-0400] {override.py:1900} INFO - Created Permission View: can delete on DAG:bixi_mvp_pipeline
+[2024-10-12T00:45:46.446-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.446-0400] {override.py:1900} INFO - Created Permission View: can read on DAG Run:bixi_mvp_pipeline
+[2024-10-12T00:45:46.453-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.453-0400] {override.py:1900} INFO - Created Permission View: can create on DAG Run:bixi_mvp_pipeline
+[2024-10-12T00:45:46.460-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.459-0400] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:bixi_mvp_pipeline
+[2024-10-12T00:45:46.466-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.466-0400] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:bixi_mvp_pipeline
+[2024-10-12T00:45:46.467-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.467-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T00:45:46.482-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.481-0400] {dag.py:3262} INFO - Creating ORM DAG for bixi_mvp_pipeline
+[2024-10-12T00:45:46.492-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:45:46.492-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_mvp_pipeline to 2024-10-12 04:30:00+00:00, run_after=2024-10-12 04:45:00+00:00
+[2024-10-12T00:45:46.509-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.674 seconds
+[2024-10-12T00:52:47.832-0400] {processor.py:186} INFO - Started process (PID=16213) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:52:47.834-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T00:52:47.835-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:52:47.835-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:52:50.987-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:52:50.987-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T00:52:50.988-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:52:50.988-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T00:52:51.232-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:52:51.424-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:52:51.424-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T00:52:51.463-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.637 seconds
+[2024-10-12T00:56:22.051-0400] {processor.py:186} INFO - Started process (PID=17356) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:56:22.052-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T00:56:22.053-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:56:22.053-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:56:25.118-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:56:25.118-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T00:56:25.118-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:56:25.118-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T00:56:25.357-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:56:25.529-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:56:25.529-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T00:56:25.567-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.521 seconds
+[2024-10-12T00:58:13.500-0400] {processor.py:186} INFO - Started process (PID=17938) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:58:13.501-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T00:58:13.502-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:58:13.502-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:58:16.751-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:58:16.751-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T00:58:16.751-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:58:16.751-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T00:58:17.013-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T00:58:17.213-0400] {logging_mixin.py:190} INFO - [2024-10-12T00:58:17.213-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T00:58:17.253-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.759 seconds
+[2024-10-12T01:01:53.171-0400] {processor.py:186} INFO - Started process (PID=19092) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:01:53.172-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T01:01:53.173-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:01:53.173-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:01:56.266-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:01:56.265-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T01:01:56.266-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:01:56.266-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T01:01:56.506-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:01:56.682-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:01:56.682-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T01:01:56.720-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.554 seconds
+[2024-10-12T01:03:47.547-0400] {processor.py:186} INFO - Started process (PID=19689) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:03:47.548-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T01:03:47.549-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:03:47.549-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:03:50.765-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:03:50.765-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T01:03:50.765-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:03:50.765-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T01:03:51.004-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:03:51.179-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:03:51.179-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T01:03:51.217-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.675 seconds
+[2024-10-12T01:07:26.552-0400] {processor.py:186} INFO - Started process (PID=20859) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:07:26.553-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T01:07:26.554-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:07:26.554-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:07:29.634-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:07:29.634-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T01:07:29.635-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:07:29.634-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T01:07:29.872-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:07:30.044-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:07:30.043-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T01:07:30.081-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.534 seconds
+[2024-10-12T01:10:50.140-0400] {processor.py:186} INFO - Started process (PID=21950) to work on /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:10:50.141-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py for tasks to queue
+[2024-10-12T01:10:50.142-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:10:50.142-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:10:53.394-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:10:53.393-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-12T01:10:53.394-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:10:53.394-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-12T01:10:53.677-0400] {processor.py:925} INFO - DAG(s) 'bixi_mvp_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py
+[2024-10-12T01:10:53.871-0400] {logging_mixin.py:190} INFO - [2024-10-12T01:10:53.871-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-12T01:10:53.914-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_mvp_pipeline copy.py took 3.779 seconds

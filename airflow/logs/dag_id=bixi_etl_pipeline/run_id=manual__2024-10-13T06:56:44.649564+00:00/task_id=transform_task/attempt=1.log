@@ -1,0 +1,120 @@
+[2024-10-13T02:57:20.526-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-13T02:57:20.541-0400] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bixi_etl_pipeline.transform_task manual__2024-10-13T06:56:44.649564+00:00 [queued]>
+[2024-10-13T02:57:20.547-0400] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bixi_etl_pipeline.transform_task manual__2024-10-13T06:56:44.649564+00:00 [queued]>
+[2024-10-13T02:57:20.547-0400] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-10-13T02:57:20.563-0400] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): transform_task> on 2024-10-13 06:56:44.649564+00:00
+[2024-10-13T02:57:20.572-0400] {standard_task_runner.py:72} INFO - Started process 18635 to run task
+[2024-10-13T02:57:20.580-0400] {clientserver.py:543} INFO - Closing down clientserver connection
+[2024-10-13T02:57:20.593-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'bixi_etl_pipeline', 'transform_task', 'manual__2024-10-13T06:56:44.649564+00:00', '--job-id', '166', '--raw', '--subdir', 'DAGS_FOLDER/bixi_etl_pipeline.py', '--cfg-path', '/var/folders/bj/4z3t139j7xj2qng4wk4y16ym0000gn/T/tmp___4b7ul']
+[2024-10-13T02:57:20.594-0400] {standard_task_runner.py:105} INFO - Job 166: Subtask transform_task
+[2024-10-13T02:57:20.666-0400] {task_command.py:467} INFO - Running <TaskInstance: bixi_etl_pipeline.transform_task manual__2024-10-13T06:56:44.649564+00:00 [running]> on host karendembp.home
+[2024-10-13T02:57:20.946-0400] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bixi_etl_pipeline' AIRFLOW_CTX_TASK_ID='transform_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-13T06:56:44.649564+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-13T06:56:44.649564+00:00'
+[2024-10-13T02:57:20.948-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-10-13T02:57:20.949-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-10-13T02:57:20.950-0400] {logging_mixin.py:190} INFO - Current task name:transform_task state:running start_date:2024-10-13 06:57:20.541319+00:00
+[2024-10-13T02:57:20.951-0400] {logging_mixin.py:190} INFO - Dag name:bixi_etl_pipeline and current dag run status:running
+[2024-10-13T02:57:20.952-0400] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-13T02:57:26.514-0400] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/airflow/dags/bixi_etl_pipeline.py", line 74, in transform_data
+    df_combined = df_combined.withColumn(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/sql/dataframe.py", line 5176, in withColumn
+    return DataFrame(self._jdf.withColumn(colName, col._jc), self.sparkSession)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `status_last_reported` cannot be resolved. Did you mean one of the following? [`last_reported`, `status_station_id`, `status_is_charging`, `is_installed`, `station_id`].;
+'Project [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12, eightd_has_available_keys#26, status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, cast(('status_last_reported / 1000) as timestamp) AS last_reported#119, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, ... 2 more fields]
++- Join Inner, (station_id#11 = status_station_id#53)
+   :- LogicalRDD [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12], false
+   +- Project [eightd_has_available_keys#26, is_charging#27 AS status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37 AS status_station_id#53, eightd_active_station_services#38]
+      +- LogicalRDD [eightd_has_available_keys#26, is_charging#27, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37, eightd_active_station_services#38], false
+
+[2024-10-13T02:57:26.540-0400] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-10-13T02:57:26.540-0400] {logging_mixin.py:190} INFO - Task start:2024-10-13 06:57:20.541319+00:00 end:2024-10-13 06:57:26.539306+00:00 duration:5.997987
+[2024-10-13T02:57:26.541-0400] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): transform_task> dag:<DAG: bixi_etl_pipeline> dagrun:<DagRun bixi_etl_pipeline @ 2024-10-13 06:56:44.649564+00:00: manual__2024-10-13T06:56:44.649564+00:00, state:running, queued_at: 2024-10-13 06:56:44.672547+00:00. externally triggered: True>
+[2024-10-13T02:57:26.549-0400] {logging_mixin.py:190} INFO - Failure caused by [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `status_last_reported` cannot be resolved. Did you mean one of the following? [`last_reported`, `status_station_id`, `status_is_charging`, `is_installed`, `station_id`].;
+'Project [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12, eightd_has_available_keys#26, status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, cast(('status_last_reported / 1000) as timestamp) AS last_reported#119, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, ... 2 more fields]
++- Join Inner, (station_id#11 = status_station_id#53)
+   :- LogicalRDD [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12], false
+   +- Project [eightd_has_available_keys#26, is_charging#27 AS status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37 AS status_station_id#53, eightd_active_station_services#38]
+      +- LogicalRDD [eightd_has_available_keys#26, is_charging#27, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37, eightd_active_station_services#38], false
+[2024-10-13T02:57:26.552-0400] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=bixi_etl_pipeline, task_id=transform_task, run_id=manual__2024-10-13T06:56:44.649564+00:00, execution_date=20241013T065644, start_date=20241013T065720, end_date=20241013T065726
+[2024-10-13T02:57:26.576-0400] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-13T02:57:26.577-0400] {standard_task_runner.py:124} ERROR - Failed to execute job 166 for task transform_task ([UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `status_last_reported` cannot be resolved. Did you mean one of the following? [`last_reported`, `status_station_id`, `status_is_charging`, `is_installed`, `station_id`].;
+'Project [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12, eightd_has_available_keys#26, status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, cast(('status_last_reported / 1000) as timestamp) AS last_reported#119, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, ... 2 more fields]
++- Join Inner, (station_id#11 = status_station_id#53)
+   :- LogicalRDD [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12], false
+   +- Project [eightd_has_available_keys#26, is_charging#27 AS status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37 AS status_station_id#53, eightd_active_station_services#38]
+      +- LogicalRDD [eightd_has_available_keys#26, is_charging#27, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37, eightd_active_station_services#38], false
+; 18635)
+Traceback (most recent call last):
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/karenwang/airflow/dags/bixi_etl_pipeline.py", line 74, in transform_data
+    df_combined = df_combined.withColumn(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/sql/dataframe.py", line 5176, in withColumn
+    return DataFrame(self._jdf.withColumn(colName, col._jc), self.sparkSession)
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/Users/karenwang/anaconda3/envs/airflow_sqlite_env/lib/python3.9/site-packages/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `status_last_reported` cannot be resolved. Did you mean one of the following? [`last_reported`, `status_station_id`, `status_is_charging`, `is_installed`, `station_id`].;
+'Project [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12, eightd_has_available_keys#26, status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, cast(('status_last_reported / 1000) as timestamp) AS last_reported#119, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, ... 2 more fields]
++- Join Inner, (station_id#11 = status_station_id#53)
+   :- LogicalRDD [capacity#0L, eightd_has_key_dispenser#1, electric_bike_surcharge_waiver#2, external_id#3, has_kiosk#4, is_charging#5, lat#6, lon#7, name#8, rental_methods#9, short_name#10, station_id#11, eightd_station_services#12], false
+   +- Project [eightd_has_available_keys#26, is_charging#27 AS status_is_charging#52, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37 AS status_station_id#53, eightd_active_station_services#38]
+      +- LogicalRDD [eightd_has_available_keys#26, is_charging#27, is_installed#28L, is_renting#29L, is_returning#30L, last_reported#31L, num_bikes_available#32L, num_bikes_disabled#33L, num_docks_available#34L, num_docks_disabled#35L, num_ebikes_available#36L, station_id#37, eightd_active_station_services#38], false
+
+[2024-10-13T02:57:26.650-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-13T02:57:26.677-0400] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-13T02:57:26.682-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

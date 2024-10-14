@@ -1,0 +1,287 @@
+[2024-10-13T20:03:29.660-0400] {processor.py:186} INFO - Started process (PID=26174) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:03:29.661-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:03:29.663-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:29.662-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:03:40.263-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:03:40.483-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:40.483-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:03:40.504-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:03:40.504-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:03:40.531-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.876 seconds
+[2024-10-13T20:07:36.534-0400] {processor.py:186} INFO - Started process (PID=27452) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:07:36.535-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:07:36.537-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:36.537-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:07:46.300-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:07:46.485-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:46.484-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:07:46.501-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:07:46.500-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:07:46.527-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.001 seconds
+[2024-10-13T20:11:29.265-0400] {processor.py:186} INFO - Started process (PID=28647) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:11:29.266-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:11:29.268-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:29.268-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:11:38.739-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:11:38.904-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:38.903-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:11:38.921-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:38.921-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:11:38.944-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.685 seconds
+[2024-10-13T20:15:38.397-0400] {processor.py:186} INFO - Started process (PID=29915) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:15:38.398-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:15:38.400-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:38.399-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:15:49.570-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:15:49.753-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:49.752-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:15:49.773-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:15:49.773-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:15:49.801-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 11.409 seconds
+[2024-10-13T20:19:49.837-0400] {processor.py:186} INFO - Started process (PID=31200) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:19:49.838-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:19:49.840-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:19:49.840-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:20:00.177-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:20:00.387-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:00.386-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:20:00.406-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:00.405-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:20:00.433-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.602 seconds
+[2024-10-13T20:24:14.223-0400] {processor.py:186} INFO - Started process (PID=32697) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:24:14.224-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:24:14.226-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:14.225-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:24:24.582-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:24:24.770-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:24.769-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:24:24.790-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:24.790-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:24:24.816-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.599 seconds
+[2024-10-13T20:25:31.857-0400] {processor.py:186} INFO - Started process (PID=33120) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:25:31.859-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:25:31.860-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:31.860-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:25:41.962-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:25:42.169-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:42.168-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:25:42.192-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:25:42.191-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:25:42.225-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.373 seconds
+[2024-10-13T20:30:28.683-0400] {processor.py:186} INFO - Started process (PID=34838) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:30:28.685-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:30:28.686-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:28.686-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:30:38.087-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:30:38.260-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:38.259-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:30:38.277-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:38.277-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:30:38.301-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.625 seconds
+[2024-10-13T20:34:07.766-0400] {processor.py:186} INFO - Started process (PID=35967) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:34:07.768-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:34:07.769-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:07.769-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:34:16.901-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:34:17.082-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:17.082-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:34:17.102-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:17.102-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:34:17.127-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.366 seconds
+[2024-10-13T20:37:48.964-0400] {processor.py:186} INFO - Started process (PID=37140) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:37:48.965-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:37:48.966-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:37:48.966-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:37:58.038-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:37:58.187-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:37:58.187-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:37:58.202-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:37:58.202-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:37:58.226-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.268 seconds
+[2024-10-13T20:41:28.596-0400] {processor.py:186} INFO - Started process (PID=38265) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:41:28.598-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:41:28.599-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:28.598-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:41:37.782-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:41:37.947-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:37.947-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:41:37.962-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:37.962-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:41:37.981-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.390 seconds
+[2024-10-13T20:45:07.432-0400] {processor.py:186} INFO - Started process (PID=39384) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:45:07.434-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:45:07.435-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:07.435-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:45:16.609-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:45:16.805-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:16.805-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:45:16.824-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:16.823-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:45:16.851-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.425 seconds
+[2024-10-13T20:48:48.485-0400] {processor.py:186} INFO - Started process (PID=40544) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:48:48.487-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:48:48.488-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:48:48.488-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:48:57.521-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:48:57.709-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:48:57.709-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:48:57.723-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:48:57.723-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:48:57.746-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.267 seconds
+[2024-10-13T20:52:26.347-0400] {processor.py:186} INFO - Started process (PID=41678) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:52:26.348-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:52:26.350-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:26.349-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:52:35.422-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:52:35.589-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:35.589-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:52:35.602-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:35.602-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:52:35.626-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.284 seconds
+[2024-10-13T20:56:06.098-0400] {processor.py:186} INFO - Started process (PID=42830) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:56:06.100-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:56:06.101-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:06.101-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:56:15.288-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:56:15.474-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:15.473-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:56:15.490-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:15.489-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:56:15.511-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.418 seconds
+[2024-10-13T20:59:46.733-0400] {processor.py:186} INFO - Started process (PID=43972) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:59:46.734-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T20:59:46.736-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:59:46.736-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:59:55.910-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T20:59:56.099-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:59:56.098-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:59:56.118-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:59:56.117-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T20:59:56.141-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.414 seconds
+[2024-10-13T21:03:27.053-0400] {processor.py:186} INFO - Started process (PID=45103) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:03:27.055-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:03:27.056-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:27.056-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:03:36.021-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:03:36.188-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:36.187-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:03:36.205-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:36.205-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:03:36.228-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.180 seconds
+[2024-10-13T21:07:25.482-0400] {processor.py:186} INFO - Started process (PID=46335) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:07:25.484-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:07:25.485-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:25.485-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:07:35.416-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:07:35.607-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:35.606-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:07:35.625-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:07:35.625-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:07:35.649-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.173 seconds
+[2024-10-13T21:13:14.502-0400] {processor.py:186} INFO - Started process (PID=48217) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:13:14.504-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:13:14.505-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:14.505-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:13:23.979-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:13:24.158-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:24.157-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:13:24.173-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:24.172-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:13:24.195-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.699 seconds
+[2024-10-13T21:17:15.731-0400] {processor.py:186} INFO - Started process (PID=49706) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:17:15.733-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:17:15.734-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:15.734-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:17:24.998-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:17:25.180-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:25.179-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:17:25.197-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:25.196-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:17:25.220-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.495 seconds
+[2024-10-13T21:20:57.081-0400] {processor.py:186} INFO - Started process (PID=50847) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:20:57.083-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:20:57.084-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:20:57.084-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:21:06.340-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:21:06.519-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:06.519-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:21:06.538-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:06.538-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:21:06.562-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.486 seconds
+[2024-10-13T21:24:38.897-0400] {processor.py:186} INFO - Started process (PID=51987) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:24:38.899-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:24:38.900-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:38.900-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:24:48.014-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:24:48.185-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:48.185-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:24:48.202-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:24:48.202-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:24:48.223-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.332 seconds
+[2024-10-13T21:28:18.237-0400] {processor.py:186} INFO - Started process (PID=53118) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:28:18.239-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:28:18.241-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:18.240-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:28:27.444-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:28:27.622-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:27.622-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:28:27.644-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:27.643-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:28:27.669-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.437 seconds
+[2024-10-13T21:32:20.564-0400] {processor.py:186} INFO - Started process (PID=54399) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:32:20.566-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:32:20.567-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:20.567-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:32:30.393-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:32:30.576-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:30.575-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:32:30.594-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:30.593-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:32:30.618-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.060 seconds
+[2024-10-13T21:36:14.452-0400] {processor.py:186} INFO - Started process (PID=55643) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:36:14.454-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:36:14.455-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:14.455-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:36:24.282-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:36:24.469-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:24.468-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:36:24.488-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:24.488-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:36:24.514-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.068 seconds
+[2024-10-13T21:40:08.402-0400] {processor.py:186} INFO - Started process (PID=56838) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:40:08.403-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:40:08.405-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:08.404-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:40:17.661-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:40:17.845-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:17.845-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:40:17.863-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:17.863-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:40:17.889-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.493 seconds
+[2024-10-13T21:43:59.750-0400] {processor.py:186} INFO - Started process (PID=58030) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:43:59.752-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:43:59.753-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:43:59.753-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:44:09.510-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:44:09.699-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:09.699-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:44:09.718-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:09.718-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:44:09.742-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.998 seconds
+[2024-10-13T21:48:00.422-0400] {processor.py:186} INFO - Started process (PID=59252) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:48:00.424-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:48:00.425-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:00.425-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:48:10.206-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:48:10.392-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:10.391-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:48:10.407-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:10.407-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:48:10.434-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.018 seconds
+[2024-10-13T21:52:01.551-0400] {processor.py:186} INFO - Started process (PID=60533) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:52:01.552-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:52:01.553-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:01.553-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:52:11.884-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:52:12.107-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:12.106-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:52:12.127-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:12.127-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:52:12.158-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.613 seconds
+[2024-10-13T21:56:03.243-0400] {processor.py:186} INFO - Started process (PID=61781) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:56:03.244-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:56:03.245-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:03.245-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:56:13.046-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:56:13.231-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:13.230-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:56:13.249-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:13.249-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:56:13.274-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.037 seconds
+[2024-10-13T21:59:47.805-0400] {processor.py:186} INFO - Started process (PID=62928) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:59:47.807-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T21:59:47.809-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:59:47.808-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:59:57.582-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T21:59:57.780-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:59:57.779-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:59:57.797-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:59:57.796-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T21:59:57.823-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.024 seconds
+[2024-10-13T22:03:49.677-0400] {processor.py:186} INFO - Started process (PID=64174) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:03:49.679-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:03:49.680-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:03:49.680-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:03:58.709-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:03:58.878-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:03:58.877-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:03:58.895-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:03:58.894-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:03:58.921-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.250 seconds
+[2024-10-13T22:07:39.383-0400] {processor.py:186} INFO - Started process (PID=65356) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:07:39.384-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:07:39.386-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:39.386-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:07:49.038-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:07:49.228-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:49.227-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:07:49.245-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:07:49.244-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:07:49.267-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.890 seconds
+[2024-10-13T22:11:32.560-0400] {processor.py:186} INFO - Started process (PID=66560) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:11:32.561-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:11:32.562-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:32.562-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:11:42.743-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:11:42.941-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:42.940-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:11:42.962-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:11:42.962-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:11:42.991-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.437 seconds
+[2024-10-13T22:15:31.229-0400] {processor.py:186} INFO - Started process (PID=67780) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:15:31.231-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:15:31.232-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:31.231-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:15:40.959-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:15:41.145-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:41.144-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:15:41.163-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:15:41.162-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:15:41.186-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.963 seconds
+[2024-10-13T22:19:29.010-0400] {processor.py:186} INFO - Started process (PID=68998) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:19:29.012-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:19:29.013-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:29.013-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:19:39.311-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:19:39.516-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:39.515-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:19:39.535-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:19:39.535-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:19:39.560-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.556 seconds
+[2024-10-13T22:23:38.355-0400] {processor.py:186} INFO - Started process (PID=70309) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:23:38.356-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:23:38.358-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:38.358-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:23:48.587-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:23:48.813-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:48.812-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:23:48.832-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:23:48.832-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:23:48.859-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.511 seconds
+[2024-10-13T22:27:48.745-0400] {processor.py:186} INFO - Started process (PID=71660) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:27:48.746-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:27:48.748-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:27:48.748-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:27:58.855-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:27:59.065-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:27:59.064-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:27:59.083-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:27:59.083-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:27:59.109-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.369 seconds
+[2024-10-13T22:29:08.361-0400] {processor.py:186} INFO - Started process (PID=72130) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:29:08.362-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:29:08.364-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:08.363-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:29:19.147-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:29:19.360-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:19.360-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:29:19.378-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:19.378-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to None, run_after=None
+[2024-10-13T22:29:19.403-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 11.049 seconds
+[2024-10-13T22:30:40.519-0400] {processor.py:186} INFO - Started process (PID=72636) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:30:40.521-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:30:40.522-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:30:40.522-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:30:50.678-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:30:51.006-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:30:51.006-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:30:51.035-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:30:51.035-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to 2024-10-14 02:25:00+00:00, run_after=2024-10-14 02:30:00+00:00
+[2024-10-13T22:30:51.060-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 10.548 seconds
+[2024-10-13T22:38:10.673-0400] {processor.py:186} INFO - Started process (PID=75155) to work on /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:38:10.674-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/bixi_etl_pipeline.py for tasks to queue
+[2024-10-13T22:38:10.675-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:10.675-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:38:20.345-0400] {processor.py:925} INFO - DAG(s) 'bixi_etl_pipeline' retrieved from /Users/karenwang/airflow/dags/bixi_etl_pipeline.py
+[2024-10-13T22:38:20.524-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:20.524-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:38:20.556-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:20.556-0400] {dag.py:4180} INFO - Setting next_dagrun for bixi_etl_pipeline to 2024-10-14 02:35:00+00:00, run_after=2024-10-14 02:40:00+00:00
+[2024-10-13T22:38:20.580-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/bixi_etl_pipeline.py took 9.913 seconds

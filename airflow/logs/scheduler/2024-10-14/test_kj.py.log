@@ -1,0 +1,360 @@
+[2024-10-13T20:04:00.473-0400] {processor.py:186} INFO - Started process (PID=26372) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:04:00.475-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:04:00.476-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:04:00.476-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:04:04.440-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:04:04.439-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:04:04.440-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:04:04.440-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:04:04.759-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:04:05.012-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:04:05.012-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:04:05.033-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:04:05.033-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:04:05.056-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.589 seconds
+[2024-10-13T20:08:06.146-0400] {processor.py:186} INFO - Started process (PID=27625) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:08:06.148-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:08:06.150-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:08:06.150-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:08:09.978-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:08:09.977-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:08:09.978-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:08:09.978-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:08:10.294-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:08:10.514-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:08:10.514-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:08:10.532-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:08:10.531-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:08:10.554-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.413 seconds
+[2024-10-13T20:11:58.120-0400] {processor.py:186} INFO - Started process (PID=28800) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:11:58.122-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:11:58.123-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:11:58.123-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:12:02.176-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:12:02.175-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:12:02.176-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:12:02.176-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:12:02.528-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:12:02.750-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:12:02.750-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:12:02.768-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:12:02.768-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:12:02.792-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.680 seconds
+[2024-10-13T20:16:09.239-0400] {processor.py:186} INFO - Started process (PID=30088) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:16:09.240-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:16:09.241-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:16:09.241-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:16:13.383-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:16:13.383-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:16:13.384-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:16:13.383-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:16:13.754-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:16:14.002-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:16:14.002-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:16:14.021-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:16:14.020-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:16:14.044-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.811 seconds
+[2024-10-13T20:20:21.960-0400] {processor.py:186} INFO - Started process (PID=31390) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:20:21.962-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:20:21.964-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:21.963-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:20:25.963-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:25.963-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:20:25.964-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:25.964-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:20:26.290-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:20:26.512-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:26.512-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:20:26.529-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:20:26.529-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:20:26.552-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.600 seconds
+[2024-10-13T20:24:44.180-0400] {processor.py:186} INFO - Started process (PID=32865) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:24:44.182-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:24:44.184-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:44.183-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:24:48.296-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:48.295-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:24:48.296-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:48.296-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:24:48.637-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:24:48.871-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:48.871-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:24:48.888-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:24:48.888-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:24:48.910-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.736 seconds
+[2024-10-13T20:26:01.815-0400] {processor.py:186} INFO - Started process (PID=33285) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:26:01.816-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:26:01.818-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:26:01.818-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:26:06.009-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:26:06.008-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:26:06.009-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:26:06.009-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:26:06.371-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:26:06.597-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:26:06.597-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:26:06.615-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:26:06.615-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:26:06.641-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.832 seconds
+[2024-10-13T20:30:55.607-0400] {processor.py:186} INFO - Started process (PID=34991) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:30:55.608-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:30:55.610-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:55.609-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:30:59.268-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:59.268-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:30:59.269-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:59.268-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:30:59.572-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:30:59.783-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:59.783-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:30:59.799-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:30:59.798-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:30:59.822-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.220 seconds
+[2024-10-13T20:34:34.350-0400] {processor.py:186} INFO - Started process (PID=36112) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:34:34.351-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:34:34.353-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:34.352-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:34:37.943-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:37.943-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:34:37.943-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:37.943-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:34:38.248-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:34:38.468-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:38.468-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:34:38.482-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:34:38.482-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:34:38.500-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.156 seconds
+[2024-10-13T20:38:15.450-0400] {processor.py:186} INFO - Started process (PID=37293) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:38:15.451-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:38:15.453-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:15.452-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:38:18.996-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:18.996-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:38:18.996-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:18.996-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:38:19.303-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:38:19.490-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:19.490-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:38:19.503-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:38:19.503-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:38:19.524-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.081 seconds
+[2024-10-13T20:41:55.191-0400] {processor.py:186} INFO - Started process (PID=38418) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:41:55.192-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:41:55.194-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:55.193-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:41:58.660-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:58.660-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:41:58.661-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:58.661-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:41:58.958-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:41:59.138-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:59.138-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:41:59.151-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:41:59.151-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:41:59.171-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 3.986 seconds
+[2024-10-13T20:45:34.062-0400] {processor.py:186} INFO - Started process (PID=39537) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:45:34.063-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:45:34.065-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:34.064-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:45:37.522-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:37.521-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:45:37.522-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:37.522-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:45:37.797-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:45:37.982-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:37.982-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:45:37.995-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:45:37.995-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:45:38.016-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 3.960 seconds
+[2024-10-13T20:49:14.993-0400] {processor.py:186} INFO - Started process (PID=40698) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:49:14.995-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:49:14.996-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:14.996-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:49:18.495-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:18.495-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:49:18.495-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:18.495-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:49:18.821-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:49:19.029-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:19.029-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:49:19.046-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:49:19.045-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:49:19.069-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.082 seconds
+[2024-10-13T20:52:52.788-0400] {processor.py:186} INFO - Started process (PID=41842) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:52:52.789-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:52:52.790-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:52.790-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:52:56.333-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:56.333-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:52:56.334-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:56.333-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:52:56.632-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:52:56.828-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:56.828-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:52:56.844-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:52:56.843-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:52:56.869-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.087 seconds
+[2024-10-13T20:56:32.745-0400] {processor.py:186} INFO - Started process (PID=42974) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:56:32.747-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T20:56:32.748-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:32.748-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:56:36.339-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:36.339-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T20:56:36.340-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:36.339-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T20:56:36.658-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T20:56:36.851-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:36.851-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T20:56:36.865-0400] {logging_mixin.py:190} INFO - [2024-10-13T20:56:36.864-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T20:56:36.887-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.147 seconds
+[2024-10-13T21:00:13.343-0400] {processor.py:186} INFO - Started process (PID=44115) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:00:13.344-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:00:13.345-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:13.345-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:00:16.948-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:16.948-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:00:16.948-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:16.948-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:00:17.266-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:00:17.465-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:17.465-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:00:17.481-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:00:17.481-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:00:17.506-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.168 seconds
+[2024-10-13T21:03:53.382-0400] {processor.py:186} INFO - Started process (PID=45258) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:03:53.384-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:03:53.385-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:53.385-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:03:56.943-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:56.943-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:03:56.944-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:56.944-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:03:57.272-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:03:57.488-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:57.488-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:03:57.507-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:03:57.507-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:03:57.532-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.155 seconds
+[2024-10-13T21:08:10.650-0400] {processor.py:186} INFO - Started process (PID=46611) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:08:10.652-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:08:10.653-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:08:10.652-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:08:14.587-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:08:14.587-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:08:14.588-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:08:14.588-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:08:14.942-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:08:15.165-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:08:15.165-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:08:15.181-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:08:15.180-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:08:15.200-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.556 seconds
+[2024-10-13T21:13:42.981-0400] {processor.py:186} INFO - Started process (PID=48374) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:13:42.982-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:13:42.983-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:42.983-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:13:46.823-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:46.822-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:13:46.823-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:46.823-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:13:47.160-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:13:47.413-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:47.412-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:13:47.434-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:13:47.433-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:13:47.461-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.487 seconds
+[2024-10-13T21:17:42.479-0400] {processor.py:186} INFO - Started process (PID=49863) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:17:42.481-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:17:42.482-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:42.482-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:17:46.030-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:46.029-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:17:46.030-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:46.030-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:17:46.325-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:17:46.529-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:46.528-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:17:46.542-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:17:46.542-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:17:46.565-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.091 seconds
+[2024-10-13T21:21:23.822-0400] {processor.py:186} INFO - Started process (PID=51000) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:21:23.824-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:21:23.826-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:23.825-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:21:27.403-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:27.403-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:21:27.403-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:27.403-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:21:27.710-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:21:27.905-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:27.905-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:21:27.921-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:21:27.921-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:21:27.942-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.125 seconds
+[2024-10-13T21:25:05.443-0400] {processor.py:186} INFO - Started process (PID=52142) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:25:05.445-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:25:05.446-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:25:05.446-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:25:08.950-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:25:08.950-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:25:08.951-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:25:08.951-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:25:09.255-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:25:09.464-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:25:09.464-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:25:09.478-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:25:09.477-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:25:09.499-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.063 seconds
+[2024-10-13T21:28:46.552-0400] {processor.py:186} INFO - Started process (PID=53271) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:28:46.554-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:28:46.556-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:46.556-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:28:51.004-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:51.003-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:28:51.004-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:51.004-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:28:51.403-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:28:51.659-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:51.659-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:28:51.678-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:28:51.678-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:28:51.706-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 5.160 seconds
+[2024-10-13T21:32:50.035-0400] {processor.py:186} INFO - Started process (PID=54562) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:32:50.036-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:32:50.038-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:50.038-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:32:53.818-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:53.817-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:32:53.818-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:53.818-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:32:54.135-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:32:54.355-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:54.354-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:32:54.370-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:32:54.370-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:32:54.392-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.363 seconds
+[2024-10-13T21:36:43.738-0400] {processor.py:186} INFO - Started process (PID=55806) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:36:43.739-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:36:43.741-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:43.741-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:36:47.506-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:47.505-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:36:47.506-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:47.506-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:36:47.829-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:36:48.047-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:48.047-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:36:48.062-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:36:48.062-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:36:48.085-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.353 seconds
+[2024-10-13T21:40:37.685-0400] {processor.py:186} INFO - Started process (PID=57001) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:40:37.686-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:40:37.688-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:37.688-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:40:41.552-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:41.551-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:40:41.552-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:41.552-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:40:41.894-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:40:42.128-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:42.128-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:40:42.145-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:40:42.144-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:40:42.169-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.490 seconds
+[2024-10-13T21:44:28.530-0400] {processor.py:186} INFO - Started process (PID=58193) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:44:28.531-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:44:28.533-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:28.532-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:44:32.432-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:32.432-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:44:32.433-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:32.432-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:44:32.794-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:44:33.014-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:33.013-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:44:33.030-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:44:33.030-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:44:33.052-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.529 seconds
+[2024-10-13T21:48:29.982-0400] {processor.py:186} INFO - Started process (PID=59415) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:48:29.983-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:48:29.985-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:29.984-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:48:33.879-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:33.879-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:48:33.880-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:33.879-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:48:34.215-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:48:34.440-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:34.439-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:48:34.459-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:48:34.459-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:48:34.482-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.506 seconds
+[2024-10-13T21:52:31.736-0400] {processor.py:186} INFO - Started process (PID=60698) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:52:31.737-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:52:31.739-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:31.739-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:52:35.608-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:35.608-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:52:35.609-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:35.609-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:52:35.924-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:52:36.151-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:36.151-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:52:36.166-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:52:36.166-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:52:36.189-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.459 seconds
+[2024-10-13T21:56:31.804-0400] {processor.py:186} INFO - Started process (PID=61934) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:56:31.806-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T21:56:31.807-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:31.807-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:56:35.609-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:35.609-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T21:56:35.610-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:35.610-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T21:56:35.938-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T21:56:36.162-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:36.162-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T21:56:36.180-0400] {logging_mixin.py:190} INFO - [2024-10-13T21:56:36.179-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T21:56:36.203-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.404 seconds
+[2024-10-13T22:00:17.220-0400] {processor.py:186} INFO - Started process (PID=63091) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:00:17.222-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:00:17.223-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:17.223-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:00:21.015-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:21.014-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:00:21.015-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:21.015-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:00:21.349-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:00:21.559-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:21.559-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:00:21.573-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:00:21.573-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:00:21.597-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.383 seconds
+[2024-10-13T22:04:16.244-0400] {processor.py:186} INFO - Started process (PID=64327) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:04:16.245-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:04:16.246-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:16.246-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:04:19.735-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:19.734-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:04:19.735-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:19.735-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:04:20.056-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:04:20.256-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:20.256-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:04:20.273-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:04:20.273-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:04:20.295-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.057 seconds
+[2024-10-13T22:08:08.661-0400] {processor.py:186} INFO - Started process (PID=65520) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:08:08.662-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:08:08.663-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:08:08.663-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:08:12.396-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:08:12.396-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:08:12.396-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:08:12.396-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:08:12.715-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:08:12.932-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:08:12.932-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:08:12.950-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:08:12.949-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:08:12.970-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.316 seconds
+[2024-10-13T22:12:02.355-0400] {processor.py:186} INFO - Started process (PID=66726) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:12:02.357-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:12:02.359-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:12:02.358-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:12:06.194-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:12:06.194-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:12:06.195-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:12:06.195-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:12:06.530-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:12:06.734-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:12:06.734-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:12:06.751-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:12:06.751-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:12:06.776-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.427 seconds
+[2024-10-13T22:16:01.487-0400] {processor.py:186} INFO - Started process (PID=67953) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:16:01.489-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:16:01.491-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:16:01.490-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:16:05.921-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:16:05.921-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:16:05.922-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:16:05.922-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:16:06.253-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:16:06.505-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:16:06.504-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:16:06.525-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:16:06.525-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:16:06.551-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 5.071 seconds
+[2024-10-13T22:20:00.709-0400] {processor.py:186} INFO - Started process (PID=69173) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:20:00.711-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:20:00.712-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:20:00.712-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:20:04.662-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:20:04.661-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:20:04.662-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:20:04.662-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:20:04.998-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:20:05.213-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:20:05.213-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:20:05.231-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:20:05.231-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:20:05.257-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.554 seconds
+[2024-10-13T22:24:09.375-0400] {processor.py:186} INFO - Started process (PID=70495) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:24:09.377-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:24:09.379-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:24:09.378-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:24:13.515-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:24:13.515-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:24:13.516-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:24:13.516-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:24:13.859-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:24:14.084-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:24:14.083-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:24:14.102-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:24:14.102-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:24:14.129-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.759 seconds
+[2024-10-13T22:29:31.034-0400] {processor.py:186} INFO - Started process (PID=72264) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:29:31.035-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:29:31.037-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:31.037-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:29:35.066-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:35.066-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:29:35.067-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:35.066-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:29:35.434-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:29:35.672-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:35.672-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:29:35.693-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:29:35.692-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:29:35.718-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.690 seconds
+[2024-10-13T22:32:39.516-0400] {processor.py:186} INFO - Started process (PID=73366) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:32:39.519-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:32:39.521-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:32:39.521-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:32:44.094-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:32:44.093-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:32:44.094-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:32:44.094-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:32:44.518-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:32:44.757-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:32:44.756-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:32:44.779-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:32:44.778-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:32:44.802-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 5.292 seconds
+[2024-10-13T22:38:42.148-0400] {processor.py:186} INFO - Started process (PID=75329) to work on /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:38:42.149-0400] {processor.py:914} INFO - Processing file /Users/karenwang/airflow/dags/test_kj.py for tasks to queue
+[2024-10-13T22:38:42.150-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:42.150-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:38:46.169-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:46.169-0400] {utils.py:148} INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-10-13T22:38:46.170-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:46.170-0400] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-10-13T22:38:46.507-0400] {processor.py:925} INFO - DAG(s) 'challenge_dag' retrieved from /Users/karenwang/airflow/dags/test_kj.py
+[2024-10-13T22:38:46.728-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:46.728-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T22:38:46.745-0400] {logging_mixin.py:190} INFO - [2024-10-13T22:38:46.744-0400] {dag.py:4180} INFO - Setting next_dagrun for challenge_dag to None, run_after=None
+[2024-10-13T22:38:46.767-0400] {processor.py:208} INFO - Processing /Users/karenwang/airflow/dags/test_kj.py took 4.625 seconds
